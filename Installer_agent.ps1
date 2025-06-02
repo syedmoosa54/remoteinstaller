@@ -3,7 +3,7 @@
 $ErrorActionPreference = "Stop"
 
 # Set variables
-$AgentURL = "https://desktopcentral.manageengine.in/download?encapiKey=PHtE6r1bRem63jV59RIG4v%2B%2BFsGiY41%2F%2B%2BMzJAFHuY8QW6MCSk1X%2BIwuxGfhoksrUfZKQf%2BdnIpvsb%2BZtLiGI2a7YzxOCmqyqK3sx%2FVYSPOZ%2Fv7t0RQZtA%3D%3D&os=Windows"
+$AgentURL = "https://desktopcentral.manageengine.in/download?encapiKey=PHtE6r1bRem63jV59RIG4v%2B%2BFsGiY41%2F%2B%2BMzJAFHuY8QW6MCSk1X%2BIwuxGfhoksrUfZKQf%2BdnIpvsb%2BZtLiGI2a7YzxOCmqyqK3sx%2FVYSPOZ%2F%2F260BFP414%3D&os=Windows"
 $DownloadPath = "$env:TEMP\DefaultRemoteOffice_Agent.exe"
 $LogFile = "$env:SystemRoot\Temp\ME_AgentInstall.log"
 $AgentInstalledPath = "C:\Program Files (x86)\Desktop Central\DesktopCentral_Agent\AgentHandler.exe" # Modify this to the actual location of the installed agent
